@@ -88,7 +88,13 @@
         }
         </script>
     </head>
-    <body>
+    <body onunload="">
+
+<script type="text/javascript">
+    alert('first load / reload');
+    window.onload = function(){alert('onload')};
+</script>
+
         <!-- Start of first page: #one -->
         <div data-role="page" id="one" data-theme="a">
             <div data-role="header">
