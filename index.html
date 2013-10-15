@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
         <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+	<script type="text/javascript" src="jquery.history.js"></script>
+	
+
         <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
         <script type="text/javascript" charset="utf-8">
         $(document).on('pagebeforeshow', '#one', function(){    
@@ -88,7 +92,8 @@
         }
         </script>
     </head>
-    <body onunload="">
+    <body>
+
 
         <!-- Start of first page: #one -->
         <div data-role="page" id="one" data-theme="a">
@@ -146,6 +151,7 @@
             </div>
         </div><!-- /page one -->
  
+
         <!-- Start of second page: #two -->
         <div data-role="page" id="two" data-theme="a">
             <div data-role="header">
@@ -160,5 +166,6 @@
                 <a href="#one" class="ui-btn-left">Back</a>
             </div>
         </div><!-- /page two -->
+
     </body>
 </html>
